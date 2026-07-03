@@ -3,7 +3,8 @@ password="1234"
 
 email=input("enteremail")
 password=input("enter password")
-if email=="rutendo@.com" and password=="1234":
+if email=="rutendo@.com" and 
+password=="1234":
 
     print("login successful")
 else:

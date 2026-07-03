@@ -1,0 +1,18 @@
+tasks = []
+
+# Add tasks
+tasks.append("Do homework")
+tasks.append("Study Python")
+
+# Show tasks
+print("My Tasks:")
+for task in tasks:
+    print(task)
+
+# Remove a task
+tasks.remove("Do homework")
+
+# Show tasks again
+print("\nUpdated Tasks:")
+for task in tasks:
+    print(task)
